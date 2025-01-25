@@ -7,7 +7,7 @@ const MagicButton = ({
 
 ) => {
   return (
-    <button className={`inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-green-500 hover:bg-green-800 font-bold text-white tracking-wide transition-colors duration-200 ${otherClasses}`}>
+    <button className={`inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-green-500 font-bold text-white tracking-wide transition-colors duration-200 ${otherClasses} hover:scale-110 hover:bg-[#21e065]`}>
         {/*{position === "left" && icon}*/}
         {title}
         {/*{position === "right" && icon}*/}
